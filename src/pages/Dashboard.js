@@ -1,6 +1,6 @@
 // src/pages/Dashboard.js
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
+import { motion, AnimatePresence} from 'framer-motion';
 import MetricCard from '../components/dashboard/MetricCard';
 import PerformanceChart from '../components/dashboard/PerformanceChart';
 import './css/Dashboard.css';

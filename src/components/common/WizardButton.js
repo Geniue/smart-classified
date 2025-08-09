@@ -1,5 +1,4 @@
 // src/components/common/WizardButton.js
-import React from 'react';
 import './css/WizardButton.css'; // We'll create this CSS file next
 
 const WizardButton = ({ 

@@ -1,6 +1,4 @@
 // src/components/common/SearchBar.js
-import { useState } from 'react';
-
 export default function SearchBar({ value, onChange }) {
   return (
     <div className="search-bar">

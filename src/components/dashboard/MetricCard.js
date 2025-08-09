@@ -1,6 +1,4 @@
 // src/components/dashboard/MetricCard.js
-import React from 'react';
-
 // Must use 'export default' if importing without braces
 export default function MetricCard({ title, value, change }) {
   return (

@@ -1,6 +1,4 @@
 // src/components/forms/CategorySelector.js
-import { FaArrowRight } from 'react-icons/fa';
-
 import WizardButton from '../../components/common/WizardButton';
 
 export default function CategorySelector({ selected, onSelect, onNext }) {

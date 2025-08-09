@@ -42,32 +42,4 @@ export default function PackageSelector({ selected, onSelect, onBack, onNext }) 
       </div>
     </div>
   );
-  return (
-    <div className="package-selector">
-      <h2>Select a Package</h2>
-      <div className="packages-grid">
-        {packages.map(pkg => (
-          <div
-            key={pkg.id}
-            className={`package-card ${selected?.id === pkg.id ? 'selected' : ''}`}
-            onClick={() => onSelect(pkg)}
-          >
-            <h3>{pkg.name}</h3>
-            <div className="price">${pkg.price}</div>
-            <ul className="features">
-              {pkg.features.map((feature, i) => (
-                <li key={i}>{feature}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-      <div className="package-actions">
-        <button onClick={onBack}>Back</button>
-        <button onClick={onNext} disabled={!selected}>
-          Continue
-        </button>
-      </div>
-    </div>
-  );
 }
