@@ -1,0 +1,42 @@
+/* src/components/common/WizardButton.css */
+.wizard-button {
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-size: 1rem;
+}
+
+.wizard-button.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.wizard-button.primary:hover:not(.disabled) {
+  background-color: #1d4ed8;
+}
+
+.wizard-button.secondary {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.wizard-button.secondary:hover:not(.disabled) {
+  background-color: #e5e7eb;
+}
+
+.wizard-button.danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.wizard-button.danger:hover:not(.disabled) {
+  background-color: #dc2626;
+}
+
+.wizard-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

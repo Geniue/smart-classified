@@ -1,0 +1,128 @@
+.payment-step-container {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.payment-step-container h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.payment-step-container .total-amount {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.payment-step-container .total-amount span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2b9348;
+}
+
+.payment-options {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.payment-card {
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 15px;
+  cursor: pointer;
+  background: #fafafa;
+  transition: all 0.25s ease;
+}
+
+.payment-card:hover {
+  border-color: #2b9348;
+  background: #f3fff6;
+}
+
+.payment-card input {
+  display: none;
+}
+
+.payment-card input:checked + .payment-content {
+  border-color: #2b9348;
+}
+
+.payment-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  color: #333;
+  
+}
+
+.payment-icon {
+  font-size: 1.4rem;
+  color: #2b9348;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn-primary {
+  background: #2b9348;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.btn-primary:hover {
+  background: #207437;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #555;
+  border: 1px solid #ccc;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+  background: #f2f2f2;
+}
+
+
+.payment-card {
+  display: block;
+  cursor: pointer;
+}
+
+.payment-content {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 15px;
+  background: #fafafa;
+  transition: all 0.25s ease;
+}
+
+.payment-card:hover .payment-content {
+  border-color: #2b9348;
+  background: #f3fff6;
+}
+
+.payment-card input:checked + .payment-content {
+  border-color: #2b9348;
+  background: #e7fbea;
+  box-shadow: 0 0 0 2px rgba(43, 147, 72, 0.3);
+}

@@ -1,0 +1,23 @@
+.categories-grid .category-card  {
+    color: #333;
+}
+
+.category-card.selected {
+    background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+
+.upload-area p{
+    color: #333;
+}
+
+.package-card {
+    color: #333;
+}
+.package-card.selected {
+  border: 2px solid var(--primary-color);
+  background-color: rgba(37, 99, 235, 0.05);
+  color: unset;
+}
